@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A fun clicker game",
   "scripts": {
-    "start": "npx serve ."
+    "start": "npx serve -s . -p ${PORT:-3000}"
   },
   "dependencies": {
     "serve": "^14.2.1"
